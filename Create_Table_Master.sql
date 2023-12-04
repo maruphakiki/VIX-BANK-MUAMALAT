@@ -1,4 +1,4 @@
-#3.MEMBUAT TABLE MASTER (*NOTED* tidak ada informasi tentang sales didalam dataset)
+#3.MEMBUAT TABLE MASTER 
 CREATE TABLE bank_muamalat.master_table AS
 select o.Date as order_date,
        pc.CategoryName as category_name,
