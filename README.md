@@ -90,11 +90,18 @@ REFERENCES bank_muamalat.ProductCategory(CategoryID) NOT ENFORCED;
 Membuat table master dengan melakukan join antar table dan mengurutkannya berdasarkan order date awal dan
 order qty terkecil untuk mendapatkan informasi atau kolom yang diperlukan dalam pembuatan dashboard
 visualisasi.
+**Hasil Tabel Relasi :** <br>
+<p align="center">
+  <kbd><img src="Assets/master.png" width=800px> </kbd> <br>
+  <strong> Gambar 2. Mater Tabel </strong>
+</p>
+<br>
+<br>
 <details>
   <summary>Click untuk melihat Queries</summary>
   
   ```sql
-#3.MEMBUAT TABLE MASTER (*NOTED* tidak ada informasi tentang sales didalam dataset)
+#3.MEMBUAT TABLE MASTER
 CREATE TABLE bank_muamalat.master_table AS
 select o.Date as order_date,
        pc.CategoryName as category_name,
@@ -114,6 +121,7 @@ on p.Category = pc.CategoryID
 order by 1, 5
  ```
 </details>
+
 ---
 
 ## 📂 **STAGE 3: Data Visualization**
@@ -122,7 +130,7 @@ order by 1, 5
 **Hasil Visualisasi :** <br>
 <p align="center">
   <kbd><img src="Assets/top.png" width=800px> </kbd> <br>
-  <strong> Gambar 1. Top Penjualan (Pendapatan) dan Kuantitas Pemesanan berdasarkan Kategori Produk </strong>
+  <strong> Gambar 3. Top Penjualan (Pendapatan) dan Kuantitas Pemesanan berdasarkan Kategori Produk </strong>
 </p>
 <br>
 
@@ -134,7 +142,7 @@ paling banyak dibeli secara kuantitas dengan total 3.123 transaksi diikuti Train
 **Hasil Visualisasi :** <br>
 <p align="center">
   <kbd><img src="Assets/2.png" width=800px> </kbd> <br>
-  <strong> Gambar 1. Penjualan (Pendapatan) dan Kuantitas Pemesanan berdasarkan Kota</strong>
+  <strong> Gambar 4. Penjualan (Pendapatan) dan Kuantitas Pemesanan berdasarkan Kota</strong>
 </p>
 <br>
 
