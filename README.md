@@ -140,7 +140,7 @@ paling banyak dibeli secara kuantitas dengan total 3.123 transaksi diikuti Train
 **Hasil Visualisasi :** <br>
 <p align="center">
   <kbd><img src="Assets/2.png" width=800px> </kbd> <br>
-  <strong> Gambar 4. Penjualan (Pendapatan) dan Kuantitas Pemesanan berdasarkan Kota</strong>
+  <strong> Gambar 4. Total Penjualan (Pendapatan) dan Kuantitas Pemesanan berdasarkan Kota</strong>
 </p>
 <br>
 
