@@ -29,7 +29,7 @@ table Orders.
 3. Kolom “ProdNumber” Sebagai Primary Key
 untuk table Products.
 4. Kolom “CategoryID” Sebagai Primary Key untuk
-table PrroductCategory. <br>
+table PrroductCategory.
 
 <details>
   <summary>Click untuk melihat Queries</summary>
@@ -58,7 +58,6 @@ artinya satu Kategori Produk dapat memiliki banyak Produk.
   <kbd><img src="Assets/Relasi.png" width=800px> </kbd> <br>
   <strong> Gambar 1. Entity Relationship Diagram </strong>
 </p>
-<br>
 <br>
 
 <details>
@@ -95,7 +94,6 @@ visualisasi.
   <kbd><img src="Assets/master.png" width=800px> </kbd> <br>
   <strong> Gambar 2. Mater Tabel </strong>
 </p>
-<br>
 <br>
 <details>
   <summary>Click untuk melihat Queries</summary>
