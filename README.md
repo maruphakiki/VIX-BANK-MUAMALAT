@@ -29,7 +29,7 @@ table Orders.
 3. Kolom “ProdNumber” Sebagai Primary Key
 untuk table Products.
 4. Kolom “CategoryID” Sebagai Primary Key untuk
-table . <br>
+table PrroductCategory. <br>
 
 <details>
   <summary>Click untuk melihat Queries</summary>
