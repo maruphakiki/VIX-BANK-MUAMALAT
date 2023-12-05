@@ -150,6 +150,8 @@ paling banyak dibeli secara kuantitas dengan total 3.123 transaksi diikuti Train
 - Kota Washington menjadi pusat aktivitas transaksi utama dengan jumlah penjualan atau pendapatan sebesar $55.400.
 - Kota Washington juga menjadi kota dengan jumlah quantity produk paling banyak terjual dengan total 308 unit namun masih terdapat  juga kota yang menghasilkan jumlah penjualan unit sangat kecil sehinga penjualan per-unitnya masih belum merata untuk setiap kota.
 
+---
+
 ## 📂 **STAGE 4: Business Recomendation**
 - Optimalkan Penjualan Produk Robot: Produk robot telah menjadi penyumbang pendapatan terbesar. Upayakan untuk memperluas pasar produk ini dengan strategi pemasaran yang lebih agresif, pengembangan fitur baru, atau bahkan kemitraan dengan pelaku industri terkait.
 - Tingkatkan Penjualan Ebooks: Meskipun pendapatan dari ebooks tidak sebesar produk robot, Ebooks adalah produk yang paling banyak dibeli secara quantity dengan ini dapat memanfaatkan popularitas dengan menawarkan bundel atau diskon saat pembelian produk lain.
